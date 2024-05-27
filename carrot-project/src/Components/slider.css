@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+}
+.banner-1{
+    background-image: url('../assets/banner-1.jpg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.slider-span{
+    margin-right: 5px;
+    color: #64b496;
+    font-weight: bold;
+    border-bottom: 2px solid #64b496;
+}
+.text-slider{
+    font-weight: bold;
+}
+.deatil-slider h1{
+    font-family: "Manrope", sans-serif;
+    font-weight: 900;
+    line-height: 68px;
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 60px;
+}
+.p-slider p{
+    margin-bottom: 10px;
+    font-size: 14px;
+    
+    color: #7a7a7a;
+    line-height: 1.75;  
+    font-family: "Poppins", sans-serif;
+}
+.btn-slider{
+    margin-top: 30px;
+}
+.btn-slider button{
+    border: none;
+}
+.btn-slider button a{
+    height: 40px;
+    padding: 8px 22px;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    background-color: #64b496;
+    color: #fff!important;
+    border: 1px solid #64b496;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    transition: all     0.3s;
+}
+.btn-slider button a:hover{
+    background-color: #000
+}
+.banner-2{
+    background-image: url('../../img/banner-2.jpg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
